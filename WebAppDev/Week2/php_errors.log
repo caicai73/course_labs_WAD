@@ -1,0 +1,728 @@
+[19-Jul-2017 23:32:10 UTC] PHP Warning:  require(‘productphp’): failed to open stream: No such file or directory in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[19-Jul-2017 23:32:10 UTC] PHP Stack trace:
+[19-Jul-2017 23:32:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[19-Jul-2017 23:32:10 UTC] PHP Fatal error:  require(): Failed opening required '‘productphp’' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[19-Jul-2017 23:32:10 UTC] PHP Stack trace:
+[19-Jul-2017 23:32:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:04:43 UTC] PHP Warning:  require(posts.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:04:43 UTC] PHP Stack trace:
+[20-Jul-2017 03:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:04:43 UTC] PHP Fatal error:  require(): Failed opening required 'posts.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:04:43 UTC] PHP Stack trace:
+[20-Jul-2017 03:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:05:04 UTC] PHP Warning:  require(posts.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:05:04 UTC] PHP Stack trace:
+[20-Jul-2017 03:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:05:04 UTC] PHP Fatal error:  require(): Failed opening required 'posts.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:05:04 UTC] PHP Stack trace:
+[20-Jul-2017 03:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:05:49 UTC] PHP Warning:  require(posts.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:05:49 UTC] PHP Stack trace:
+[20-Jul-2017 03:05:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:05:49 UTC] PHP Fatal error:  require(): Failed opening required 'posts.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:05:49 UTC] PHP Stack trace:
+[20-Jul-2017 03:05:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:06:20 UTC] PHP Fatal error:  Class 'Posts' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 6
+[20-Jul-2017 03:06:20 UTC] PHP Stack trace:
+[20-Jul-2017 03:06:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:06:55 UTC] PHP Fatal error:  Class 'wp\Posts' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 6
+[20-Jul-2017 03:06:55 UTC] PHP Stack trace:
+[20-Jul-2017 03:06:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:07:31 UTC] PHP Fatal error:  Class 'Posts' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 6
+[20-Jul-2017 03:07:31 UTC] PHP Stack trace:
+[20-Jul-2017 03:07:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:08:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 62
+[20-Jul-2017 03:08:52 UTC] PHP Stack trace:
+[20-Jul-2017 03:08:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:22:15 UTC] PHP Warning:  require(post.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:22:15 UTC] PHP Stack trace:
+[20-Jul-2017 03:22:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:22:15 UTC] PHP Fatal error:  require(): Failed opening required 'post.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:22:15 UTC] PHP Stack trace:
+[20-Jul-2017 03:22:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:22:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 62
+[20-Jul-2017 03:22:37 UTC] PHP Stack trace:
+[20-Jul-2017 03:22:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:23:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 62
+[20-Jul-2017 03:23:09 UTC] PHP Stack trace:
+[20-Jul-2017 03:23:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:23:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 62
+[20-Jul-2017 03:23:40 UTC] PHP Stack trace:
+[20-Jul-2017 03:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:39:51 UTC] PHP Fatal error:  Cannot access protected property wp\Post::$name in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 13
+[20-Jul-2017 03:39:51 UTC] PHP Stack trace:
+[20-Jul-2017 03:39:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:45:26 UTC] PHP Parse error:  syntax error, unexpected '$post1' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:48:47 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:48:47 UTC] PHP Stack trace:
+[20-Jul-2017 03:48:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:50:45 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/Post.php on line 32
+[20-Jul-2017 03:50:45 UTC] PHP Stack trace:
+[20-Jul-2017 03:50:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:51:52 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/Post.php on line 32
+[20-Jul-2017 03:51:52 UTC] PHP Stack trace:
+[20-Jul-2017 03:51:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:52:07 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/Post.php on line 32
+[20-Jul-2017 03:52:07 UTC] PHP Stack trace:
+[20-Jul-2017 03:52:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:53:05 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 3
+[20-Jul-2017 03:53:05 UTC] PHP Stack trace:
+[20-Jul-2017 03:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:56:03 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 8
+[20-Jul-2017 03:56:03 UTC] PHP Stack trace:
+[20-Jul-2017 03:56:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 03:59:14 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 8
+[20-Jul-2017 03:59:14 UTC] PHP Stack trace:
+[20-Jul-2017 03:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:00:01 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 8
+[20-Jul-2017 04:00:01 UTC] PHP Stack trace:
+[20-Jul-2017 04:00:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:23:20 UTC] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 4
+[20-Jul-2017 04:23:20 UTC] PHP Stack trace:
+[20-Jul-2017 04:23:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:23:43 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:23:43 UTC] PHP Stack trace:
+[20-Jul-2017 04:23:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:23:43 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:24:17 UTC] PHP Fatal error:  Class 'wp\postSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 4
+[20-Jul-2017 04:24:17 UTC] PHP Stack trace:
+[20-Jul-2017 04:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:24:44 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:24:44 UTC] PHP Stack trace:
+[20-Jul-2017 04:24:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:24:44 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:25:04 UTC] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 4
+[20-Jul-2017 04:25:04 UTC] PHP Stack trace:
+[20-Jul-2017 04:25:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:26:12 UTC] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 4
+[20-Jul-2017 04:26:12 UTC] PHP Stack trace:
+[20-Jul-2017 04:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:26:20 UTC] PHP Fatal error:  Class 'PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 4
+[20-Jul-2017 04:26:20 UTC] PHP Stack trace:
+[20-Jul-2017 04:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:26:28 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:26:28 UTC] PHP Stack trace:
+[20-Jul-2017 04:26:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:26:28 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:26:48 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:26:48 UTC] PHP Stack trace:
+[20-Jul-2017 04:26:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:26:48 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:27:46 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:27:46 UTC] PHP Stack trace:
+[20-Jul-2017 04:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:27:46 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:28:25 UTC] PHP Fatal error:  Cannot redeclare class PostSeeder in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 6
+[20-Jul-2017 04:28:25 UTC] PHP Stack trace:
+[20-Jul-2017 04:28:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:28:39 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:28:39 UTC] PHP Stack trace:
+[20-Jul-2017 04:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:28:39 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:5
+[20-Jul-2017 04:28:44 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:28:44 UTC] PHP Stack trace:
+[20-Jul-2017 04:28:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:28:44 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:5
+[20-Jul-2017 04:28:56 UTC] PHP Fatal error:  Cannot redeclare class PostSeeder in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 6
+[20-Jul-2017 04:28:56 UTC] PHP Stack trace:
+[20-Jul-2017 04:28:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:29:06 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:29:06 UTC] PHP Stack trace:
+[20-Jul-2017 04:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:29:06 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:6
+[20-Jul-2017 04:29:16 UTC] PHP Fatal error:  Class 'wp\postSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 6
+[20-Jul-2017 04:29:16 UTC] PHP Stack trace:
+[20-Jul-2017 04:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:30:06 UTC] PHP Fatal error:  Class 'wp\PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php on line 6
+[20-Jul-2017 04:30:06 UTC] PHP Stack trace:
+[20-Jul-2017 04:30:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:30:41 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:30:41 UTC] PHP Stack trace:
+[20-Jul-2017 04:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:30:41 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:31:14 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:31:14 UTC] PHP Stack trace:
+[20-Jul-2017 04:31:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:31:14 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:31:16 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:31:16 UTC] PHP Stack trace:
+[20-Jul-2017 04:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:31:16 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:4
+[20-Jul-2017 04:32:05 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:32:05 UTC] PHP Stack trace:
+[20-Jul-2017 04:32:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:32:05 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:32:15 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:32:15 UTC] PHP Stack trace:
+[20-Jul-2017 04:32:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:32:15 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:32:19 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:32:19 UTC] PHP Stack trace:
+[20-Jul-2017 04:32:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:32:19 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:32:22 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:32:22 UTC] PHP Stack trace:
+[20-Jul-2017 04:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:32:22 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:33:25 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:33:25 UTC] PHP Stack trace:
+[20-Jul-2017 04:33:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:33:25 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:39:50 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:39:50 UTC] PHP Stack trace:
+[20-Jul-2017 04:39:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:39:50 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:44:20 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:44:20 UTC] PHP Stack trace:
+[20-Jul-2017 04:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:0
+[20-Jul-2017 04:44:20 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2/index2.php:3
+[20-Jul-2017 04:44:30 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:44:30 UTC] PHP Stack trace:
+[20-Jul-2017 04:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 04:44:30 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:3
+[20-Jul-2017 04:45:24 UTC] PHP Fatal error:  Class 'Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 9
+[20-Jul-2017 04:45:24 UTC] PHP Stack trace:
+[20-Jul-2017 04:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 04:45:24 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:3
+[20-Jul-2017 04:55:55 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 04:55:55 UTC] PHP Stack trace:
+[20-Jul-2017 04:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 04:55:55 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 04:56:37 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 04:56:37 UTC] PHP Stack trace:
+[20-Jul-2017 04:56:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 04:56:37 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 04:56:44 UTC] PHP Fatal error:  Class 'wp\PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 4
+[20-Jul-2017 04:56:44 UTC] PHP Stack trace:
+[20-Jul-2017 04:56:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:08:41 UTC] PHP Fatal error:  Class 'wp\PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 4
+[20-Jul-2017 05:08:41 UTC] PHP Stack trace:
+[20-Jul-2017 05:08:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:17:20 UTC] PHP Fatal error:  Cannot redeclare Post::getComment() in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 35
+[20-Jul-2017 05:17:20 UTC] PHP Stack trace:
+[20-Jul-2017 05:17:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:17:20 UTC] PHP   2. include() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:3
+[20-Jul-2017 05:17:40 UTC] PHP Fatal error:  Cannot redeclare Post::getComment() in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 35
+[20-Jul-2017 05:17:40 UTC] PHP Stack trace:
+[20-Jul-2017 05:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:17:40 UTC] PHP   2. include() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:3
+[20-Jul-2017 05:18:40 UTC] PHP Fatal error:  Cannot redeclare Post::getComment() in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 35
+[20-Jul-2017 05:18:40 UTC] PHP Stack trace:
+[20-Jul-2017 05:18:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:18:40 UTC] PHP   2. include() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:3
+[20-Jul-2017 05:27:29 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:27:29 UTC] PHP Stack trace:
+[20-Jul-2017 05:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:27:29 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:28:03 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:28:03 UTC] PHP Stack trace:
+[20-Jul-2017 05:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:28:03 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:30:20 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:30:20 UTC] PHP Stack trace:
+[20-Jul-2017 05:30:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:30:20 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:33:20 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:33:20 UTC] PHP Stack trace:
+[20-Jul-2017 05:33:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:33:20 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:33:52 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:33:52 UTC] PHP Stack trace:
+[20-Jul-2017 05:33:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:33:52 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:34 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:37:34 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:37:34 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:34 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 05:37:34 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:37:34 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:37:34 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:34 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 05:37:34 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:37:34 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:37:34 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:34 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 05:37:52 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:37:52 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:37:52 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:52 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 05:37:52 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:37:52 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:37:52 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:52 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 05:37:52 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:37:52 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:37:52 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:37:52 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 05:37:52 UTC] PHP Fatal error:  Cannot use object of type Post as array in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 25
+[20-Jul-2017 05:37:52 UTC] PHP Stack trace:
+[20-Jul-2017 05:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:38:09 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:38:09 UTC] PHP Stack trace:
+[20-Jul-2017 05:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:38:09 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:38:09 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 05:38:09 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:38:09 UTC] PHP Stack trace:
+[20-Jul-2017 05:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:38:09 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:38:09 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 05:38:09 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:38:09 UTC] PHP Stack trace:
+[20-Jul-2017 05:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:38:09 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:38:09 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 05:44:40 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:44:40 UTC] PHP Stack trace:
+[20-Jul-2017 05:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:44:40 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:44:40 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 05:44:40 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:44:40 UTC] PHP Stack trace:
+[20-Jul-2017 05:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:44:40 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:44:40 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 05:44:40 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 05:44:40 UTC] PHP Stack trace:
+[20-Jul-2017 05:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:44:40 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:44:40 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 05:44:53 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:44:53 UTC] PHP Stack trace:
+[20-Jul-2017 05:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:44:53 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:45:59 UTC] PHP Fatal error:  Class 'wp\post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:45:59 UTC] PHP Stack trace:
+[20-Jul-2017 05:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:45:59 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:06 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:06 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:06 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:11 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:11 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:11 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:14 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:14 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:14 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:16 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:16 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:16 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:38 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:38 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:38 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:45 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:45 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:45 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:48:47 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:48:47 UTC] PHP Stack trace:
+[20-Jul-2017 05:48:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:48:47 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:49:18 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:49:18 UTC] PHP Stack trace:
+[20-Jul-2017 05:49:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:49:18 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:50:48 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:50:48 UTC] PHP Stack trace:
+[20-Jul-2017 05:50:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:50:48 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 05:57:51 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 05:57:51 UTC] PHP Stack trace:
+[20-Jul-2017 05:57:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 05:57:51 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:01:29 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 06:01:29 UTC] PHP Stack trace:
+[20-Jul-2017 06:01:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:01:29 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:01:29 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 06:01:29 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 06:01:29 UTC] PHP Stack trace:
+[20-Jul-2017 06:01:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:01:29 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:01:29 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 06:01:29 UTC] PHP Warning:  Missing argument 3 for Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 11
+[20-Jul-2017 06:01:29 UTC] PHP Stack trace:
+[20-Jul-2017 06:01:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:01:29 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:01:29 UTC] PHP   3. Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:01:29 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:01:29 UTC] PHP Stack trace:
+[20-Jul-2017 06:01:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:02:43 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 06:02:43 UTC] PHP Stack trace:
+[20-Jul-2017 06:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:02:43 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:05:54 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 06:05:54 UTC] PHP Stack trace:
+[20-Jul-2017 06:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:05:54 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:06:55 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 06:06:55 UTC] PHP Stack trace:
+[20-Jul-2017 06:06:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:06:55 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:08:06 UTC] PHP Fatal error:  Class 'wp\Post' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10
+[20-Jul-2017 06:08:06 UTC] PHP Stack trace:
+[20-Jul-2017 06:08:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:08:06 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:12 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:09:12 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:12 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:12 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 06:09:12 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:09:12 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:12 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:12 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 06:09:12 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:09:12 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:12 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:12 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:09:12 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:09:12 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:28 UTC] PHP Fatal error:  Class 'wp\PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 4
+[20-Jul-2017 06:09:28 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:48 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:09:48 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:48 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:48 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 06:09:48 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:09:48 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:48 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:48 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 06:09:48 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:09:48 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:09:48 UTC] PHP   2. PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:09:48 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:09:48 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:09:48 UTC] PHP Stack trace:
+[20-Jul-2017 06:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:10:25 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:10:25 UTC] PHP Stack trace:
+[20-Jul-2017 06:10:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:10:25 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:10:25 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 06:10:25 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:10:25 UTC] PHP Stack trace:
+[20-Jul-2017 06:10:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:10:25 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:10:25 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 06:10:25 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:10:25 UTC] PHP Stack trace:
+[20-Jul-2017 06:10:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:10:25 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:10:25 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:10:25 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:10:25 UTC] PHP Stack trace:
+[20-Jul-2017 06:10:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:07 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:11:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:07 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:11:07 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 06:11:07 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:11:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:07 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:11:07 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 06:11:07 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:11:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:07 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:11:07 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:11:07 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:11:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:20 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 10 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:11:20 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:20 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:11:20 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:10
+[20-Jul-2017 06:11:20 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 11 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:11:20 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:20 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:11:20 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:11
+[20-Jul-2017 06:11:20 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:11:20 UTC] PHP Stack trace:
+[20-Jul-2017 06:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:11:20 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:11:20 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:12:45 UTC] PHP Fatal error:  Class 'wp\PostSeeder' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 4
+[20-Jul-2017 06:12:45 UTC] PHP Stack trace:
+[20-Jul-2017 06:12:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:12:57 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:12:57 UTC] PHP Stack trace:
+[20-Jul-2017 06:12:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:12:57 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:12:57 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:12:57 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:12:57 UTC] PHP Stack trace:
+[20-Jul-2017 06:12:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:12:57 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:12:57 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:12:57 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:12:57 UTC] PHP Stack trace:
+[20-Jul-2017 06:12:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:12:57 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:12:57 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:13:19 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:13:19 UTC] PHP Stack trace:
+[20-Jul-2017 06:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:13:19 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:13:19 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:13:19 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:13:19 UTC] PHP Stack trace:
+[20-Jul-2017 06:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:13:19 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:13:19 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:13:19 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:13:19 UTC] PHP Stack trace:
+[20-Jul-2017 06:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:13:19 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:13:19 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:13:28 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:13:28 UTC] PHP Stack trace:
+[20-Jul-2017 06:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:13:28 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:13:28 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:13:28 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:13:28 UTC] PHP Stack trace:
+[20-Jul-2017 06:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:13:28 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:13:28 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:13:28 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:13:28 UTC] PHP Stack trace:
+[20-Jul-2017 06:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:13:28 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:13:28 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:14:05 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:05 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:05 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:05 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:14:05 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:05 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:05 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:05 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:14:05 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:05 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:05 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:05 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:14:07 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:07 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:07 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:14:07 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:07 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:07 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:14:07 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:07 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:07 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:07 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:14:51 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:51 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:51 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:51 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:14:51 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:51 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:51 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:51 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:14:51 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:14:51 UTC] PHP Stack trace:
+[20-Jul-2017 06:14:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:14:51 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:14:51 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:15:15 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:15 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:15 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:15 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:15:15 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:15 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:15 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:15 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:15:15 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:15 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:15 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:15 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:15:15 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 30
+[20-Jul-2017 06:15:15 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:40 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:40 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:40 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:40 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:15:40 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:40 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:40 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:40 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:15:40 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:40 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:40 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:40 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:15:40 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:15:40 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:49 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:49 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:49 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:49 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:15:49 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:49 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:49 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:49 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:15:49 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 15
+[20-Jul-2017 06:15:49 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:15:49 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:15:49 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:15:49 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:15:49 UTC] PHP Stack trace:
+[20-Jul-2017 06:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:17:34 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:17:34 UTC] PHP Stack trace:
+[20-Jul-2017 06:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:17:34 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:17:34 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:17:34 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:17:34 UTC] PHP Stack trace:
+[20-Jul-2017 06:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:17:34 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:17:34 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:17:34 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:17:34 UTC] PHP Stack trace:
+[20-Jul-2017 06:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:17:34 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:17:34 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:17:34 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:17:34 UTC] PHP Stack trace:
+[20-Jul-2017 06:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:20:39 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:20:39 UTC] PHP Warning:  Missing argument 4 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 12 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:20:39 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:12
+[20-Jul-2017 06:20:39 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:20:39 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:20:39 UTC] PHP Warning:  Missing argument 4 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 13 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:20:39 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:13
+[20-Jul-2017 06:20:39 UTC] PHP Warning:  Missing argument 3 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:20:39 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:20:39 UTC] PHP Warning:  Missing argument 4 for wp\Post::__construct(), called in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php on line 14 and defined in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 14
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:20:39 UTC] PHP   2. wp\PostSeeder::seed() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:4
+[20-Jul-2017 06:20:39 UTC] PHP   3. wp\Post->__construct() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/postSeeder.php:14
+[20-Jul-2017 06:20:39 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:20:39 UTC] PHP Stack trace:
+[20-Jul-2017 06:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:22:54 UTC] PHP Fatal error:  Call to a member function getComments() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 28
+[20-Jul-2017 06:22:54 UTC] PHP Stack trace:
+[20-Jul-2017 06:22:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:26:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 26
+[20-Jul-2017 06:33:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 27
+[20-Jul-2017 06:33:41 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 27
+[20-Jul-2017 06:34:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php on line 27
+[20-Jul-2017 06:49:37 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 44
+[20-Jul-2017 06:49:37 UTC] PHP Stack trace:
+[20-Jul-2017 06:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:49:37 UTC] PHP   2. include() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:3
+[20-Jul-2017 06:51:56 UTC] PHP Fatal error:  Call to a member function addComment() on a non-object in /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/classes/post.php on line 44
+[20-Jul-2017 06:51:56 UTC] PHP Stack trace:
+[20-Jul-2017 06:51:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:0
+[20-Jul-2017 06:51:56 UTC] PHP   2. wp\Post->addComment() /home/ubuntu/workspace/WebAppDev/Week2/Task2.2/index3.php:6
+[20-Jul-2017 07:33:18 UTC] PHP Parse error:  syntax error, unexpected '$posts' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php on line 8
+[20-Jul-2017 07:33:44 UTC] PHP Parse error:  syntax error, unexpected '$posts' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php on line 10
+[20-Jul-2017 07:33:45 UTC] PHP Parse error:  syntax error, unexpected '$posts' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php on line 10
+[20-Jul-2017 07:33:46 UTC] PHP Parse error:  syntax error, unexpected '$posts' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php on line 10
+[20-Jul-2017 07:33:56 UTC] PHP Parse error:  syntax error, unexpected '$posts' (T_VARIABLE) in /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php on line 10
+[20-Jul-2017 07:33:58 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:33:58 UTC] PHP Stack trace:
+[20-Jul-2017 07:33:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:34:03 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:34:03 UTC] PHP Stack trace:
+[20-Jul-2017 07:34:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:34:22 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:34:22 UTC] PHP Stack trace:
+[20-Jul-2017 07:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:34:56 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:34:56 UTC] PHP Stack trace:
+[20-Jul-2017 07:34:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:35:52 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:35:52 UTC] PHP Stack trace:
+[20-Jul-2017 07:35:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:36:03 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:36:03 UTC] PHP Stack trace:
+[20-Jul-2017 07:36:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:36:16 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:36:16 UTC] PHP Stack trace:
+[20-Jul-2017 07:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:37:19 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:37:19 UTC] PHP Stack trace:
+[20-Jul-2017 07:37:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:37:28 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:37:28 UTC] PHP Stack trace:
+[20-Jul-2017 07:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:38:16 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:38:16 UTC] PHP Stack trace:
+[20-Jul-2017 07:38:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:38:17 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:38:17 UTC] PHP Stack trace:
+[20-Jul-2017 07:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 07:38:22 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 07:38:22 UTC] PHP Stack trace:
+[20-Jul-2017 07:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 10:15:19 UTC] PHP Fatal error:  Cannot redeclare class wp\Comments in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/comment.php on line 6
+[20-Jul-2017 10:15:19 UTC] PHP Stack trace:
+[20-Jul-2017 10:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 10:25:48 UTC] PHP Fatal error:  Class 'wp\Comment' not found in /home/ubuntu/workspace/WebAppDev/Week2/Task3/classes/post.php on line 53
+[20-Jul-2017 10:25:48 UTC] PHP Stack trace:
+[20-Jul-2017 10:25:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:0
+[20-Jul-2017 10:25:48 UTC] PHP   2. wp\Post->addComment() /home/ubuntu/workspace/WebAppDev/Week2/Task3/index4.php:7
