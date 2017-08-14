@@ -12,7 +12,10 @@ function search($query) {
 	if (!empty($query)) {
 		$results = array();
 		foreach ($pms as $pm) {
-			if (stripos($pm['name'], $query ) !== FALSE || stripos($pm['from'], $query ) !== FALSE || stripos($pm['to'], $query ) !== FALSE || stripos($pm['state'], $query ) !== FALSE) {
+			if (stripos($pm['name'], $query ) !== FALSE || 
+				stripos($pm['from'], $query ) !== FALSE || 
+				stripos($pm['to'], $query ) !== FALSE || 
+				stripos($pm['state'], $query ) !== FALSE) {
 				$results[] = $pm;
 	    	}
 		}

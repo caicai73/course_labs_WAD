@@ -1,0 +1,4 @@
+[30-Jul-2017 12:35:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/ubuntu/workspace/WebAppDev/Week4/Task3-foreach_get/routes/web.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/WebAppDev/Week4/Task3-foreach_get/routes/web.php on line 14

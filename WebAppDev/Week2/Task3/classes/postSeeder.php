@@ -2,6 +2,7 @@
 
 namespace wp;
 use wp\Post;
+// use wp\Comment;
 
 include_once('post.php');
 

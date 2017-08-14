@@ -1,0 +1,18 @@
+Task 2
+
+Blog(id, title, creator)
+Article(id, headline, text, author, blog_id)
+
+a.
+select title from blog where title like ‘%Japan%’;
+
+b.
+select blog.title from blog, article 
+where blog.id = article.blog_id 
+    and headline like ‘%Japan%’;
+
+c.
+select blog.title from blog, article 
+where blog.id = article.blog_id
+    and blog.creator = article.author;
+

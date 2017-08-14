@@ -1,13 +1,12 @@
 <?php
 
 namespace wp;
-
 use wp\Comment;
-require 'classes/comment.php';
-
+require('classes/comment.php');
 
 /** A class that defines products */
 class Post{
+    
     // Member variables
     protected $user; // protected variables can only be access from this and it’s parent
     protected $message;
@@ -45,14 +44,16 @@ class Post{
     }
     
     function addComment($user, $comment){
+        //array is made
+        // $this->comments = array();
+        // $comment = Comment();
         
-        // $posts[0]->addComment('Liam', 'testing task 3');
-        // $test = array('Liam', "comment14215431515141551ssdf");
-        // $test->addComment;
-        
-        $test = new comment('liam', 'meow');
-        
+        //comment array able to be seeded
         $this->comments[] = array('user' => $user, 'comment' => $comment);
+        
+        //adding my own comment here 
+        // $this->comments[] = array('user' => 'Chief', 'comment' => 'adopt me');
+      
     }
     
 }

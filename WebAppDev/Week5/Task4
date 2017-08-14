@@ -1,0 +1,16 @@
+.read stockdatabase.sql
+
+Task 4 
+
+a) select name from customers where address like '%Nathan%';
+
+b) select customers.name from stock, customers, orders 
+   where stock.id = orders.ItemId 
+    and Customers.id = orders.CustId 
+    and stock.name = "Fred's Fries";
+
+select customers.name from stock, customers, orders 
+where stock.id=orders.ItemId 
+    and Customers.id = orders.CustId 
+    and stock.name like "%fred's fries%";
+

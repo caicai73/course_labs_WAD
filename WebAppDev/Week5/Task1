@@ -1,0 +1,21 @@
+Task 1
+1.
+Entities: Blog, and article
+    Blog(id, title, creator)
+    Article(id, headline, text, author, blog_id)
+
+2.
+Entities: Issue, article, photo
+    Issue(id, date)
+    Article(id, headline, text, author, issue_id)
+    Photo(id, caption, photographer, image)
+    Article_Photo(article_id, photo_id)
+
+3.
+Entities: Journal, article, author, reference
+    Journal(id, name, date)
+    Article(id, title, date, body, journal_id)
+    Author(id, name, affiliation)
+    Author_Article(author_id, article_id)
+    Reference_Article(article_reference_id, article_id)
+
