@@ -1,0 +1,1 @@
+[16-Aug-2017 08:33:23 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/Week6/items/vendor/composer/ClassLoader.php on line 440
