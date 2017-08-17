@@ -54,10 +54,10 @@
         
         @yield('content')
         
-        <footer class="footer">
-          <div class="container">
-            <p class="text-muted basicFontStyle"><strong>© Skilti :: Speaks</strong> | Caila Ancheta | 2703ICT Web Application Development | 2017</p>
-          </div>
-        </footer>
+        <!--<footer class="footer">-->
+        <!--  <div class="container">-->
+        <!--    <p class="text-muted basicFontStyle"><strong>© Skilti :: Speaks</strong> | Caila Ancheta | 2703ICT Web Application Development | 2017</p>-->
+        <!--  </div>-->
+        <!--</footer>-->
     </body>
 </html>

@@ -13,33 +13,19 @@
 
 // route to load up home page (item list)
 Route::get('/', function(){
-    $sql = "select * from item";
+    $sql = "select * from item order by id desc";
     $items = DB::select($sql);
     return view('items.item_list')->with('items', $items);
 });
 
-// route to link item list content to the item detail page
-Route::get('item_detail/{id}', function($id){
-    $item = get_item($id);
-    return view('items.item_detail')->with('item', $item);
-});
-
-// Displays the add_item form page 
-Route::get('add_item', function(){
-    return view('items.add_item');
-});
 
 // Calls the add function to add items to the list
-Route::post('add_item_action', function(){
+Route::post('/add_item_action', function(){
     $summary = request('summary');
     $details = request('details');
-    $id = add_item($summary, $details);
+    add_item($summary, $details);
     
-    if ($id) {
-        return redirect("item_detail/$id");
-    } else {
-        die('Error while adding item');
-    }
+    return redirect("/");
 });
 
 // Displays the update form page, calls the id so it knows which item to update
@@ -55,11 +41,8 @@ Route::post('/update_item_action', function(){
     $id = request('id');
     update_item($id, $summary, $details);
     
-    if ($id) {
-        return redirect("item_detail/$id");
-    } else {
-        die('Error while adding item');
-    }
+    return redirect("/");
+
 });
 
 // Deletes the item with the selected id, then returns to the home page
