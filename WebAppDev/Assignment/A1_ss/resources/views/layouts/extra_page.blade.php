@@ -9,7 +9,7 @@
       <meta name="author" content="">
       {{-- favicon --}}
       {{--==========--}}
-      <link rel="icon" href="../../S_S_logo.png">
+      <link rel="icon" href="../images/S_S_logo.png">
       <title>@yield('title')</title>
       
       {{-- Bootstrap core CSS --}}
@@ -23,7 +23,7 @@
       <link rel="stylesheet" type="text/css" href="{{secure_asset('css/styles.css')}}">
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display%7CRaleway" rel="stylesheet">
     </head>
-    <body>
+    <body style="background-color:#BCBEBD">
         {{-- Fixed navbar --}}
         <nav class="navbar navbar-default navbar-fixed-top basicFontStyle">
           <div class="container">

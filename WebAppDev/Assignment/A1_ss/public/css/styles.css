@@ -9,6 +9,7 @@
     /*    Dark Grey => #323232 */
     /*   Light Grey => #F5F5F5 */
     /* Lighter Grey => #E5E5E5 */
+    /*  Medium Grey => #BCBEBD */
     /*=========================*/
     
     
@@ -234,6 +235,7 @@ body > .container {
     padding-left: 15px;
 }
 
+
     /*=====================*/
     /* DOCUMENTATION PAGES */
     /*=====================*/
@@ -243,4 +245,19 @@ body > .container {
     border: 2px solid rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius:25px;
+}
+
+.erd {
+    display: block;
+    margin: 0 auto;
+}
+
+#assig {
+    font-family: Raleway;
+    font-size: 15px;
+}
+
+.listing {
+    list-style-type:circle;
+    margin-left:20px;
 }

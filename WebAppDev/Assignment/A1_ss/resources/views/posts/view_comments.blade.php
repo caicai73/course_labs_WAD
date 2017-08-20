@@ -1,12 +1,12 @@
 @extends('layouts.master')
 
 @section('title')
-    Skilti :: Speaks: Comments 
+    Skilti :: Speaks: View comments 
 @endsection
 
 @section('content')
     <div class="container basicFontStyle">
-      <!-- Main content section -->
+      {{-- Main content section --}}
       <div class="row jumbotron" style="box-shadow: 1px 5px 15px #C3C3C3">
         <div class="col-md-2"></div>
         <div class="col-md-8 post">
@@ -21,8 +21,8 @@
             <li class="dropdown" style="list-style-type:none">
               <a href="#" class="dropdown-toggle navFont" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:#F0C305;float:right">Post options <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="{{ url("edit_post/$post->id/update") }}">Edit post</a></li>
-                <li><a href="{{ url("delete_post_action/$post->id") }}">Delete</a></li>
+                <li><a href="{{ url("edit_post/$post->id/edit") }}">Edit post</a></li>
+                <li><a href="{{ url("delete_post_action/$post->id") }}">Delete post</a></li>
               </ul>
             </li>
           </div>
@@ -36,8 +36,8 @@
               {{csrf_field()}}
               <div class="form-group">
                 <input type="hidden" name="id" value="{{ $post->id }}">
-                <input name="username" type="text" class="form-control post_form" placeholder="Username">
-                <textarea name="message" class="form-control post_form" rows=1 cols=50 placeholder=">-Add a new comment-<"></textarea>
+                <input name="username" type="text" class="form-control post_form" placeholder="Username" required>
+                <textarea name="message" class="form-control post_form" rows=1 cols=50 placeholder="Add a new comment" required></textarea>
               </div>
               <button type="submit" class="btn greyPur">Post</button>
               <br>

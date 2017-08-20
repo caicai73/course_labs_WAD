@@ -28,6 +28,11 @@ Route::get('assignment_doc', function(){
     return view("posts.assignment_doc");
 });
 
+// Routes to this page when the link selected has not been implemented yet. 
+Route::get('extra', function(){
+    return view("posts.extra");
+});
+
 // Calls the create_post() function to add posts to the page
 Route::post('/create_post_action', function(){
     //   Fetch form data
@@ -94,15 +99,15 @@ Route::post('/view_comments_action', function(){
 
 });
 
-// Deletes the post with the selected id, then returns to the home page
+// Deletes the post and its comments with the selected id, then returns to the home page
 Route::get('delete_post_action/{id}', function($id){
-    $id = delete_post($id);
+    delete_post($id);
     return redirect("/");
 });
 
 // Deletes the comment with the selected id, stays on the comments page
 Route::get('delete_comment_action/{id}', function($id){
-    $id = delete_comment($id);
+    delete_comment($id);
     return back();
 });
 
@@ -145,6 +150,9 @@ function edit_post($id, $username, $title_post, $message) {
 
 // Function to delete the post from the database. Just needs the id to know which one to delete
 function delete_post($id) {
+    $deleteComment = "delete from comment where postId = ?";
+    DB::delete($deleteComment, array($id));
+    
     $sql = "delete from post where id = ?"; 
     DB::delete($sql, array($id));
 }
