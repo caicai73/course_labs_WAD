@@ -77,7 +77,7 @@ Route::get('count_comment', function($postId){
     count_comment($postId);
 });
 
-// Calls the create_comment() function to add comments to the post
+// Creates a comment, gets the post.id the comment was made with, and then adds comment to that post
 Route::post('/view_comments_action', function(){
     $username = request('username');
     $message = request('message');
@@ -103,7 +103,7 @@ Route::get('delete_post_action/{id}', function($id){
 // Deletes the comment with the selected id, stays on the comments page
 Route::get('delete_comment_action/{id}', function($id){
     $id = delete_comment($id);
-    return redirect("/");
+    return back();
 });
 
     /*===========*/
@@ -114,14 +114,6 @@ Route::get('delete_comment_action/{id}', function($id){
 function create_post($username, $title_post, $message) {
     $sql = "insert into post (username, title_post, message) values (?, ?, ?)";
     DB::insert($sql, array($username, $title_post, $message));
-    $id = DB::getPdo()->lastInsertId(); //returns the last id that was added to the database
-    return($id);
-}
-
-// create a comment in a post using $postId 
-function create_comment($username, $message) {
-    $sql = "insert into comment (postId, username, message) values (?, ?, ?)";
-    DB::insert($sql, array($postId, $username, $message));
     $id = DB::getPdo()->lastInsertId(); //returns the last id that was added to the database
     return($id);
 }
