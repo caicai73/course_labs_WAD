@@ -9,5 +9,7 @@
     @foreach ($products as $product)
         <a href="/product/{{$product->id}}"><li>{{ $product->name }}</li></a>
     @endforeach
+    
+    
 </ul> 
 @endsection
