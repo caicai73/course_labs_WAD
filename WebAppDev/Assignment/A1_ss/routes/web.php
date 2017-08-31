@@ -65,7 +65,6 @@ Route::post('/edit_post_action', function(){
     edit_post($id, $username, $title_post, $message);
     
     return redirect("view_comments/$id");
-    // return View::make("posts.comments")->withId($id)->with('posts', $posts)->with('post', $post)->with('comments', $comments);
 });
 
 // Calls the comments page for that post

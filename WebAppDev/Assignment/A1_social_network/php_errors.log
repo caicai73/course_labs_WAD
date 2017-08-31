@@ -1,4 +1,0 @@
-[18-Aug-2017 07:46:11 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/Assignment/A1_social_network/vendor/composer/ClassLoader.php on line 440
-[18-Aug-2017 07:57:31 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/Assignment/A1_social_network/vendor/composer/ClassLoader.php on line 440
-[18-Aug-2017 08:01:03 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/Assignment/A1_social_network/vendor/composer/ClassLoader.php on line 440
-[18-Aug-2017 08:11:02 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/Assignment/A1_social_network/vendor/composer/ClassLoader.php on line 440
