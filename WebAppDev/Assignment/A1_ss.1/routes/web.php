@@ -14,6 +14,22 @@
 // Routes to homepage
 Route::get('/', 'PostController@index');
 
+// Post controller route
+Route::resource('home', 'PostController');
+
+// // Routes user back to posts page
+// Route::post('/', function()
+// {
+// 	return view('posts.home');
+// });
+
+// Route::post('/home/create', 'PostController@create');
+
+// // Routes user to login page
+// Route::get('Create', function()
+// {
+// 	return view('posts.create');
+// });
 
 // Routes to homepage with posts, and post form
 // Route::get('/', function(){

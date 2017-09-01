@@ -26,7 +26,8 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        $posts = Post::orderBy('id', 'DESC')->get();
+        return view('posts.home')->with('posts', $posts);
     }
 
     /**
@@ -37,7 +38,12 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new Post();
+        $post->fullname = $request->fullname;
+        $post->title_post = $request->title_post; 
+        $post->message = $request->message;
+        $post->save();
+        return redirect("/");
     }
 
     /**
@@ -48,7 +54,8 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        $posts = Post::find($id);
+        return view('posts.home')->with('posts', $posts);
     }
 
     /**
