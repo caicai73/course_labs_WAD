@@ -9,7 +9,8 @@
       <meta name="author" content="">
       {{-- favicon --}}
       {{--==========--}}
-      <link rel="icon" href="../../S_S_logo.png">
+      <link rel="icon" href="{{ secure_asse('images/S_S_logo.png')}}">
+      <!--<link rel="shortcut icon" href="{{ URL::to('/') }}/images/favicon.png">-->
       <title>@yield('title')</title>
       
       {{-- Bootstrap core CSS --}}
