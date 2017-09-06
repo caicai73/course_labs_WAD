@@ -58,3 +58,6 @@ Route::resource('/product', 'ProductController');
     // $product = Product::create(array('manufacturer_id' => '1', 'name' => 'Playstation', 'price' => 555));
     // dd($product);
 // });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

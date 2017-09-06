@@ -8,6 +8,10 @@ use App\Manufacturer;
 
 class ProductController extends Controller
 {
+    public function __construct() {
+        $this->middleware('auth', ['except' => 'index']);
+    }
+    
     /**
      * Display a listing of the resource.
      *
@@ -40,7 +44,7 @@ class ProductController extends Controller
     {
         $this->validate($request, [
             'name' => 'required|max:255',
-            'price' => 'required|numeric',
+            'price' => 'required|numeric|min:1',
             'manufacturer' => 'exists:manufacturers,id'
         ]);
         
@@ -85,12 +89,17 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate($request, [
+            'name' => 'required|max:255',
+            'price' => 'required|numeric|min:1',
+            'manufacturer' => 'exists:manufacturers,id'
+        ]);
+        
         $product = Product::find($id);
         $product->name = $request->name;
         $product->price = $request->price; 
         $product->manufacturer_id = $request->manufacturer; 
         $product->save();
-        // return redirect("/product/$product->id");
         return view('products.show')->with('product', $product);
     }
 
