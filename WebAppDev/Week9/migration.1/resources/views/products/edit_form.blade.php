@@ -36,9 +36,9 @@
         @endforeach
         </select></p>
         <br>
-        <input type="submit" value="Update"> 
+        <input type="submit" value="Update" class="btn" style="background-color:white"> 
     </form>
     <br>
-    <a href='/product/{{$product->id}}'><button>Cancel</button></a>
+    <a href='/product/{{$product->id}}'><button class="btn" style="background-color:white">Cancel</button></a>
 </div>
 @endsection

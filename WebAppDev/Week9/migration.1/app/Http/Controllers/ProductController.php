@@ -9,7 +9,8 @@ use App\Manufacturer;
 class ProductController extends Controller
 {
     public function __construct() {
-        $this->middleware('auth', ['except' => 'index']);
+        // $this->middleware('auth', ['except'=> ['index', 'show']]);
+        $this->middleware('auth', ['except'=> array(['index', 'show'])]);
     }
     
     /**

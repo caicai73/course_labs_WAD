@@ -21,7 +21,7 @@
         
         <p><label style="padding-right:5px">Name:</label><input type="text" name="name" value="{{old('name')}}"></p> 
         <p><label style="padding-right:11.5px">Price:</label><input type="text" name="price" value="{{old('price')}}"></p> 
-        <p><select name="manufacturer" style="height:5px">
+        <p><select name="manufacturer" style="height:8px">
         @foreach ($manufacturers as $manufacturer)
             @if($manufacturer->id == old('manufacturer'))
                 <option value="{{$manufacturer->id}}" selected="selected">{{$manufacturer->name}}</option> 
@@ -31,8 +31,9 @@
         @endforeach
         </select></p>
         <br>
-        <input type="submit" value="Create">
+        <input type="submit" value="Create" class="btn" style="background-color:white">
     </form>
-    <a href='/product'><button>Cancel</button></a>
+    <br>
+    <a href='/product'><button class="btn" style="background-color:white">Cancel</button></a>
 </div>
 @endsection

@@ -7,7 +7,7 @@
 @section('content') 
 <div class="container">
     <h1>List of products</h1><br>
-    <a href="/product/create"><button>Add new product</button></a>
+    <a href="/product/create"><button class="btn" style="background-color:white">Add new product</button></a>
     <ul>
         <br>
         @foreach ($products as $product)

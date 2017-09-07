@@ -15,6 +15,10 @@ Route::get('/', 'ProductController@index');
 
 Route::resource('/product', 'ProductController');
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -58,6 +62,4 @@ Route::resource('/product', 'ProductController');
     // $product = Product::create(array('manufacturer_id' => '1', 'name' => 'Playstation', 'price' => 555));
     // dd($product);
 // });
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

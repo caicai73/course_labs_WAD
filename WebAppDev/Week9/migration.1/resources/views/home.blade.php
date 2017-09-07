@@ -8,10 +8,10 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    Hi, {{ Auth::user()->name }}! You are logged in!
                     <br><br>
                     Click the button below to see the Products list.<br><br>
-                    <a href='/product'><button>Product list</button></a>
+                    <a href='/product'><button class="btn" style="background-color:#EDF4F8">Product list</button></a>
                 </div>
             </div>
         </div>
