@@ -3,41 +3,27 @@
 @section('content')
 <div class="container basicFontStyle">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <p class="headings" style="text-align:center"><strong>>> Login <<</strong></p>
-                </div>
-                <div class="panel-body">
+                <div class="panel-heading" style="text-align:center;background-color:#F7E287"><strong>Login</strong></div>
+                <div class="panel-body" style="margin-left:50px;margin-right:50px">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                            <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-Mail Address" autofocus>
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" autofocus>
-
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                            @if ($errors->has('email'))
+                                 <label class="errorInput">{{$errors->first('email')}}</label>
+                            @endif
                         </div>
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Password</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password">
-
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+    
+                            @if ($errors->has('password'))
+                                 <label class="errorInput">{{$errors->first('password')}}</label>
+                            @endif
                         </div>
 
                         <div class="form-group">
@@ -51,14 +37,18 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-6 col-md-offset-3">
+                                <button type="submit" class="btn3 yelley">
                                     Login
                                 </button>
-
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-md-8 col-md-offset-2">
+                                <p style="text-align:center"><a href="{{ route('password.request') }}">
                                     Forgot Your Password?
-                                </a>
+                                </a></p>
                             </div>
                         </div>
                     </form>
