@@ -8,10 +8,15 @@ use App\Comment;
 
 class PostController extends Controller
 {
-    
+    /** 
+     * Authenticates what the user sees
+     * 
+     * If user is not logged in, they will only see the homepage, login, register & documentation
+    */
     // public function __construct() {
-    //     // $this->middleware('auth', ['except'=> ['index', 'show']]);
-    //     $this->middleware('auth', ['except'=> array(['index', 'show'])]);
+        // $this->middleware('auth', ['except'=> ['index', 'show']]);
+        // $this->middleware('auth', ['only'=> array(['home', '/'])]);
+        // $this->middleware('auth', ['except'=> array(['home', 'extra', 'ER_diagram', 'assignment_doc'])]);
     // }
     
     /**

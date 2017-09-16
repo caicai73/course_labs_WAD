@@ -23,7 +23,7 @@ Route::resource('/home/view_comments', 'CommentController');
 // 
 Auth::routes();
 
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
 
 

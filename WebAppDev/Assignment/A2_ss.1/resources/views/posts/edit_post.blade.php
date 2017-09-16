@@ -21,25 +21,25 @@
               <label for="title_post">Fullname: {{ $post->fullname }}</label>
               <input type="hidden" name="fullname" value="{{ $post->fullname }}">
             </div>
-            <div class="form-group">
-              @if (count($errors) > 0)
+            <div class="form-group{{ $errors->has('title_post') ? ' has-error' : '' }}">
+              @if ($errors->has('title_post'))
                 <label for="title_post">Title:</label>
-                <input name="title_post" type="text" class="form-control post_form" value="{{ old('title_post') }}">
-                <label class="errorInput">{{$errors->first('title_post')}}</label><br>
+                <input name="title_post" type="text" class="form-control post_form" value="{{ old('title_post') }}" autofocus>
+                <label class="errorInput">{{$errors->first('title_post')}}</label>
               @else
                 <label for="title_post">Title:</label>
-                <input type="text" name="title_post" class="form-control post_form" value="{{ $post->title_post }}">
+                <input name="title_post" type="text" class="form-control post_form" value="{{ $post->title_post }}" autofocus>
               @endif
               
             </div>
-            <div class="form-group">
-              @if (count($errors) > 0)
+            <div class="form-group{{ $errors->has('message') ? ' has-error' : '' }}">
+              @if ($errors->has('message'))
                 <label for="message">Message:</label>
                 <textarea name="message" type="text" class="form-control post_form" rows=5>{{ old('message') }}</textarea>
-                <label class="errorInput">{{$errors->first('message')}}</label><br>
+                <label class="errorInput">{{$errors->first('message')}}</label>
               @else
                 <label for="message">Message:</label>
-                <textarea name="message" class="form-control post_form" rows=5>{{ $post->message }}</textarea>
+                <textarea name="message" type="text" class="form-control post_form" rows=5>{{ $post->message }}</textarea>
               @endif
             </div>
 

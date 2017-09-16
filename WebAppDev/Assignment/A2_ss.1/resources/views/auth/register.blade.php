@@ -3,80 +3,56 @@
 @section('content')
 <div class="container basicFontStyle">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
-                <div class="panel-heading" style="text-align:center"><strong>Register</strong></div>
-                <div class="panel-body">
+                <div class="panel-heading" style="text-align:center;background-color:#F7E287"><strong>Register</strong></div>
+                <div class="panel-body" style="margin-left:50px;margin-right:50px">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('fullname') ? ' has-error' : '' }}">
-                            <label for="fullname" class="col-md-4 control-label">Fullname</label>
+                            <input name="fullname" type="text" class="form-control post_form" placeholder="Fullname" value="{{old('fullname')}}" autofocus>
 
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" name="fullname" value="{{ old('fullname') }}"required autofocus>
-
-                                @if ($errors->has('fullname'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('fullname') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                            @if ($errors->has('fullname'))
+                                <label class="errorInput">{{$errors->first('fullname')}}</label>
+                            @endif
                         </div>
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                            <input name="email" type="email" class="form-control post_form"  placeholder="E-mail Address" value="{{ old('email') }}">
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
-
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                            @if ($errors->has('email'))
+                                <label class="errorInput">{{$errors->first('email')}}</label>
+                            @endif
                         </div>
                         
                         <div class="form-group{{ $errors->has('dob') ? ' has-error' : '' }}">
-                            <label for="dob" class="col-md-4 control-label">Date of Birth</label>
+                            <input name="dob" type="date" class="form-control post_form" value="{{ old('dob') }}">
 
-                            <div class="col-md-6">
-                                <input id="dob" type="date" class="form-control" name="dob" value="{{ old('dob') }}" required>
-
-                                @if ($errors->has('dob'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('dob') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                            @if ($errors->has('dob'))
+                               <label class="errorInput">{{$errors->first('dob')}}</label>
+                            @endif
                         </div>
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Password</label>
+                            <input id="password" type="password" class="form-control post_form" name="password" placeholder="Password">
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password" required>
+                            @if ($errors->has('password'))
+                                <label class="errorInput">{{$errors->first('password')}}</label>
+                            @endif
+                        </div>
 
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                            <input name="password_confirmation" type="password" class="form-control post_form" placeholder="Confirm Password">
+                            
+                            @if ($errors->has('password'))
+                                <label class="errorInput">{{$errors->first('password')}}</label>
+                            @endif
                         </div>
 
                         <div class="form-group">
-                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-4 col-md-offset-4">
+                                <button type="submit" class="btn3 yelley">
                                     Register
                                 </button>
                             </div>

@@ -52,7 +52,7 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users',
             'dob' => 'required|date',
             'password' => 'required|string|min:4|confirmed',
-            'photos.profile' => 'required|image',
+            // 'photos.profile' => 'required|image',
         ]);
     }
 
