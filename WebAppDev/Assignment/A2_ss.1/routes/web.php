@@ -20,6 +20,13 @@ Route::resource('/home', 'PostController');
 // Comment contoller routes
 Route::resource('/home/view_comments', 'CommentController');
 
+// 
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+
+
 // // Routes to the ER diagram page
 // Route::get('ER_diagram', function(){
 //     return view("posts.ER_diagram");

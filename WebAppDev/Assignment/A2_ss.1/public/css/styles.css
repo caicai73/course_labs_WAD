@@ -10,6 +10,7 @@
     /*   Light Grey => #F5F5F5 */
     /* Lighter Grey => #E5E5E5 */
     /*  Medium Grey => #BCBEBD */
+    /*    Error Red => #A94442 */
     /*=========================*/
     
     
@@ -113,6 +114,14 @@ a:hover{color: #F0C305;}
     background-color: #323232;
 }
 
+
+.errorInput {
+    color:#A94442;
+    font-style:italic;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
 
     /*=========================*/
     /* FORM TO ADD NEW COMMENT */

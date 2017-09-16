@@ -1,24 +1,24 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
-<div class="container">
+<div class="container basicFontStyle">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <div class="panel-heading" style="text-align:center"><strong>Register</strong></div>
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
 
-                        <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">Name</label>
+                        <div class="form-group{{ $errors->has('fullname') ? ' has-error' : '' }}">
+                            <label for="fullname" class="col-md-4 control-label">Fullname</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="name" type="text" class="form-control" name="fullname" value="{{ old('fullname') }}"required autofocus>
 
-                                @if ($errors->has('name'))
+                                @if ($errors->has('fullname'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('name') }}</strong>
+                                        <strong>{{ $errors->first('fullname') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -39,7 +39,7 @@
                         </div>
                         
                         <div class="form-group{{ $errors->has('dob') ? ' has-error' : '' }}">
-                            <label for="dob" class="col-md-4 control-label">DOB</label>
+                            <label for="dob" class="col-md-4 control-label">Date of Birth</label>
 
                             <div class="col-md-6">
                                 <input id="dob" type="date" class="form-control" name="dob" value="{{ old('dob') }}" required>

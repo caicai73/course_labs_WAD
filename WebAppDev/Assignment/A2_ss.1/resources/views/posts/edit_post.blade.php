@@ -22,12 +22,25 @@
               <input type="hidden" name="fullname" value="{{ $post->fullname }}">
             </div>
             <div class="form-group">
-              <label for="title_post">Title:</label>
-              <input type="text" name="title_post" class="form-control post_form" value="{{ $post->title_post }}">
+              @if (count($errors) > 0)
+                <label for="title_post">Title:</label>
+                <input name="title_post" type="text" class="form-control post_form" value="{{ old('title_post') }}">
+                <label class="errorInput">{{$errors->first('title_post')}}</label><br>
+              @else
+                <label for="title_post">Title:</label>
+                <input type="text" name="title_post" class="form-control post_form" value="{{ $post->title_post }}">
+              @endif
+              
             </div>
             <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea name="message" class="form-control post_form" rows=5>{{ $post->message }}</textarea>
+              @if (count($errors) > 0)
+                <label for="message">Message:</label>
+                <textarea name="message" type="text" class="form-control post_form" rows=5>{{ old('message') }}</textarea>
+                <label class="errorInput">{{$errors->first('message')}}</label><br>
+              @else
+                <label for="message">Message:</label>
+                <textarea name="message" class="form-control post_form" rows=5>{{ $post->message }}</textarea>
+              @endif
             </div>
 
             <a><button type="submit" value="Update" class="btn darkgrey">Save</button></a>

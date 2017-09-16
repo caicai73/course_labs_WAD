@@ -8,6 +8,12 @@ use App\Comment;
 
 class PostController extends Controller
 {
+    
+    // public function __construct() {
+    //     // $this->middleware('auth', ['except'=> ['index', 'show']]);
+    //     $this->middleware('auth', ['except'=> array(['index', 'show'])]);
+    // }
+    
     /**
      * Display a listing of the resource.
      *
@@ -39,6 +45,13 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'fullname' => 'required|max:255',
+            'title_post' => 'required|max:255',
+            'message' => 'required|max:255',
+            // 'manufacturer' => 'exists:manufacturers,id'
+        ]);
+        
         $post = new Post();
         $post->fullname = $request->fullname;
         $post->title_post = $request->title_post; 
@@ -80,6 +93,13 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate($request, [
+            'fullname' => 'required|max:255',
+            'title_post' => 'required|max:255',
+            'message' => 'required|max:255',
+            // 'manufacturer' => 'exists:manufacturers,id'
+        ]);
+        
         $post = Post::findOrFail($id);
         $post->fullname = $request->fullname;
         $post->title_post = $request->title_post; 

@@ -15,17 +15,38 @@
         <hr>
         <form method="POST" action="/home">
           {{csrf_field()}}
+          
           <div class="form-group">
-            <input name="fullname" type="text" class="form-control post_form" placeholder="Fullname" required>
+            @if (count($errors) > 0)
+              <input name="fullname" type="text" class="form-control post_form" placeholder="Fullname" value="{{old('fullname')}}">
+              <label class="errorInput">{{$errors->first('fullname')}}</label><br>
+            @else
+              <input name="fullname" type="text" class="form-control post_form" placeholder="Fullname" value="{{old('fullname')}}"><br>
+            @endif
+            
+            @if (count($errors) > 0)
+              <input name="title_post" type="text" class="form-control post_form" value="{{old('title_post')}}" placeholder="Title of post">
+              <label class="errorInput">{{$errors->first('title_post')}}</label><br>
+            @else
+              <input name="title_post" type="text" class="form-control post_form" placeholder="Title of post" value="{{old('title_post')}}"><br>
+            @endif
+
+            @if (count($errors) > 0)
+              <textarea name="message" class="form-control post_form" rows=5 placeholder="Type your message" value="{{old('message')}}"></textarea>
+              <label class="errorInput">{{$errors->first('message')}}</label><br>
+            @else
+              <textarea name="message" class="form-control post_form" rows=5 placeholder="Type your message" value="{{old('message')}}"></textarea>
+            @endif
           </div>
-          <div class="form-group">
-            <input name="title_post" type="text" class="form-control post_form" placeholder="Title of post" required>
-          </div>
-          <div class="form-group">
-            <textarea name="message" class="form-control post_form" rows=5 placeholder="Type your message" required></textarea>
-          </div>
+          
           <button type="submit" value="Create" class="btn darkgrey">Post</button>
         </form>  
+       {{-- @if (count($errors) >0)
+                <input type="text" name="name" value="{{old('name')}}">
+                <label style="color:#a94442;font-style:italic">{{$errors->first('name')}}</label>
+            @else
+                <label style="padding-right:5px">Name:</label><input type="text" name="name" value="{{$product->name}}">
+            @endif--}}
       </div>
       
       {{-- For: Posts --}}
