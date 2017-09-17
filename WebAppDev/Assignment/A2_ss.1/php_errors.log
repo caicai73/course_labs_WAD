@@ -1,0 +1,3 @@
+[16-Sep-2017 19:15:42 UTC] PHP Fatal error:  Trait 'App\Http\Controllers\Auth\RegistersUsers' not found in /home/ubuntu/workspace/WebAppDev/Assignment/A2_ss.1/app/Http/Controllers/Auth/RegisterController.php on line 23
+[17-Sep-2017 16:14:53 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth\Controller' not found in /home/ubuntu/workspace/WebAppDev/Assignment/A2_ss.1/app/Http/Controllers/UserController.php on line 13
+[17-Sep-2017 16:15:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth\Controller' not found in /home/ubuntu/workspace/WebAppDev/Assignment/A2_ss.1/app/Http/Controllers/UserController.php on line 13

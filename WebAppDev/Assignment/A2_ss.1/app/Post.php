@@ -12,4 +12,12 @@ class Post extends Model
     function comments() {
         return $this->hasMany('App\Comment');
     }
+    
+    function privacies() {
+        return $this->belongsTo('App\Privacy');
+    }
+    
+    function users() {
+        return $this->belongsTo('App\User');
+    }
 }

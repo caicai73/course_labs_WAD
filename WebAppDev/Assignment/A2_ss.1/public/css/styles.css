@@ -98,16 +98,15 @@ a:hover{color: #F0C305;}
     -moz-transition: .3s;
     -o-transition: .3s;
     display: block;
-    width: 30%;
+    width: 100%;
     height: 10%;
     font-family: Raleway;
-    float:right;
     /*margin:0 auto;*/
 }
 
 .darkgrey {
     color: #323232;
-    background-color: white;
+    background-color: #F7E287;
 } 
 
 .darkgrey:hover {

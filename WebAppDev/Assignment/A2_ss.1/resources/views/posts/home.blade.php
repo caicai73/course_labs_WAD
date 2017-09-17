@@ -21,7 +21,7 @@
               @foreach($posts as $post)
                 <div class="col-md-12 post" style="margin-bottom:5px">
                   <div class="col-md-1">
-                    <img src="images/S_S_logo.png" alt="Skilti::Speaks icon" class="logo" style="height:45px;width:42px">
+                    <img src="images/S_S_logo.png" alt="Profile Picture" class="logo" style="height:45px;width:42px">
                   </div>
                   <div class="col-md-8" style="padding-left:25px">
                     <label id="title_heading"><strong>{{$post->title_post}}</strong></label><br>
@@ -50,7 +50,7 @@
                     {{--For: buttons to edit, delete or view comments --}}
                     <table>
                       {{--will count comments--}}
-                      <tr><th><a href="/home/view_comments/{{$post->id}}" class="links">View {{$count_comments}} comments</a></th></tr>
+                      <tr><th><a href="/userHome/view_comments/{{$post->id}}" class="links">View {{$count_comments}} comments</a></th></tr>
                     </table>
                     <br>
                   </div>

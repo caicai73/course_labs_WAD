@@ -19,6 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->date('dob');
             $table->string('password');
+            $table->string('profImg');
             $table->rememberToken();
             $table->timestamps();
         });

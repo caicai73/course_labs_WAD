@@ -17,6 +17,10 @@ class CreatePostsTable extends Migration
             // Primary key
             $table->increments('id'); 
             
+            // Foreign keys
+            $table->integer('user_id');
+            $table->integer('privacy_id');
+            
             // Post attributes
             $table->string('fullname'); 
             $table->string('title_post');
@@ -36,4 +40,5 @@ class CreatePostsTable extends Migration
     {
         Schema::dropIfExists ('posts');
     }
+    
 }

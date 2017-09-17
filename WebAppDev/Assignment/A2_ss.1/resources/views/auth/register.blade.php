@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading" style="text-align:center;background-color:#F7E287"><strong>Register</strong></div>
                 <div class="panel-body" style="margin-left:50px;margin-right:50px">
-                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+                    <form class="form-horizontal" enctype="multipart/form-data" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('fullname') ? ' has-error' : '' }}">
@@ -48,6 +48,12 @@
                             @if ($errors->has('password'))
                                 <label class="errorInput">{{$errors->first('password')}}</label>
                             @endif
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Upload a profile picture!</label>
+                            <input type="file" name="profImg">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         </div>
 
                         <div class="form-group">

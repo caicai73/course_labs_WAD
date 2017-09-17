@@ -1,0 +1,2 @@
+[16-Sep-2017 19:10:01 UTC] PHP Fatal error:  Trait 'App\Http\Controllers\Register\RegistersUsers' not found in /home/ubuntu/workspace/WebAppDev/Assignment/A2_ss.1/app/Http/Controllers/Auth/RegisterController.php on line 23
+[16-Sep-2017 19:10:36 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\Auth\RegisterController because the name is already in use in /home/ubuntu/workspace/WebAppDev/Assignment/A2_ss.1/app/Http/Controllers/Auth/RegisterController.php on line 10

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 use App\Comment;
+use App\Privacy;
 
 class HomeController extends Controller
 {
@@ -15,22 +16,61 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('auth');
+        // $this->middleware('auth', ['except'=>'home']);
+        // $this->middleware('auth', ['except'=>'ER_diagram']);
+        // $this->middleware('auth', ['except'=>'assignment_doc']);
+        // $this->middleware('auth', ['only'=> array(['userHome'])]);
+        // $this->middleware('auth', ['except'=> ['home', 'ER_diagram', 'assignment_doc']]);
+        // $this->middleware('auth', ['except' => array(['home', 'extra', 'assignment_doc'])]);
     }
+    
+    /** 
+     * Authenticates what the user sees
+     * 
+     * If user is not logged in, they will only see the homepage, login, register & documentation
+    */
+    // public function __construct() {
+        // $this->middleware('auth', ['except'=> ['index', 'show']]);
+        // $this->middleware('auth', ['only'=> array(['home', '/'])]);
+        // $this->middleware('auth', ['except'=> array(['home', 'extra', 'ER_diagram', 'assignment_doc'])]);
+    // }
     
     /**
      * Show the application dashboard.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    // public function index()
+    // {
+        
+    //     // return view('posts.home');
+    //     $posts = Post::orderBy('id', 'desc')->get();
+    //     // $count_comments = Comment::select('')->count();
+    //     $count_comments = Comment::select('posts', 'comments', 'comments.id', '=', 'post_id')->count();
+    //     // $count_comments =  Comment::select('')->where('id', $post_id)->count();
+    //     return view('posts.userHome', compact("count_comments"))->with('posts', $posts);
+    // }
+    
+    /**
+     * Show the ER diagram.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function diagram()
     {
-        // return view('posts.home');
-        $posts = Post::orderBy('id', 'desc')->get();
-        $count_comments = Comment::select('')->count();
-        return view('posts.userHome', compact("count_comments"))->with('posts', $posts);
+        return view('posts.ER_diagram');
     }
     
+    /**
+     * Show the assignment documentation.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function document()
+    {
+        return view('posts.assignment_doc');
+    }
     
     
     /**

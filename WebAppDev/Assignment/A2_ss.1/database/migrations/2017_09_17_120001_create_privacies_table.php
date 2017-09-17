@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCommentsTable extends Migration
+class CreatePrivaciesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,12 @@ class CreateCommentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('comments', function(Blueprint $table){
+         Schema::create('privacies', function(Blueprint $table){
             // Primary key
-            $table->increments('id'); 
+            $table->increments('id');
             
-            // Foreign keys
-            $table->integer('post_id');
-            $table->integer('user_id');
-            
-            // Post attributes
-            $table->string('fullname'); 
-            $table->string('message');
+            // Manufacturer attributes
+            $table->string('name'); 
             
             // timestamp each product when it is created
             $table->timestamps();
@@ -37,6 +32,6 @@ class CreateCommentsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists ('comments');
+        Schema::dropIfExists ('privacies');
     }
 }

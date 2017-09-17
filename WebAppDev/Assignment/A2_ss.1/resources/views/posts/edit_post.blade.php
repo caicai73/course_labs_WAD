@@ -43,9 +43,10 @@
               @endif
             </div>
 
-            <a><button type="submit" value="Update" class="btn darkgrey">Save</button></a>
+            <a><button type="submit" value="Update" class="btn darkgrey" style="width:50%;margin-left:120px">Save</button></a>
           </form>
-          <a href='{{ secure_url("/") }}'><button class="btn darkgrey" style="float:left">Cancel</button></a>
+          <br>
+          <a href="/profile/{{ Auth::user()->id }}"><button class="btn darkgrey" style="float:left;width:50%;margin-left:120px">Cancel</button></a>
         </div>
 
       </div>

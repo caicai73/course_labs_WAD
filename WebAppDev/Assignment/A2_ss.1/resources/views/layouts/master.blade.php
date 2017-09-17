@@ -42,7 +42,12 @@
           </button>
           
           <!-- Branding Image -->
-          <a href="/"><img src="{{ URL::asset("images/skilti_speaks.png") }}" alt="Skilti::Speaks logo" style="margin:5px 5px 5px 20px;height:40px"></img></a>
+          @if (Auth::guest())
+              <a href="/"><img src="{{ URL::asset("images/skilti_speaks.png") }}" alt="Skilti::Speaks logo" style="margin:5px 5px 5px 20px;height:40px"></img></a>
+          @else
+              <a href="/userHome"><img src="{{ URL::asset("images/skilti_speaks.png") }}" alt="Skilti::Speaks logo" style="margin:5px 5px 5px 20px;height:40px"></img></a>
+          @endif
+          
         </div>
         
         <div id="navbar" class="navbar-collapse collapse">
@@ -67,11 +72,15 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color:#F0C305">
-                        {{ Auth::user()->fullname }} <span class="caret"></span>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color:#F0C305;text-align:center">
+                        <img src="images/profile/{{ Auth::user()->profImg }}" style="width:23px; height:23px; border-radius:50%; margin-right:5px">
+                        Welcome, {{ Auth::user()->fullname }}! <span class="caret"></span>
                     </a>
 
                     <ul class="dropdown-menu" role="menu">
+                        <li><a href="/profile/{{ Auth::user()->id }}">My Profile</a></li>
+                        <li><a href="/friends/{{ Auth::user()->id }}">Friends List</a></li>
+                        <li role="separator" class="divider"></li>
                         <li>
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
@@ -86,22 +95,6 @@
                     </ul>
                 </li>
             @endif
-            
-            
-            
-            
-            {{--These links don't work, just for show--}}
-            <!--<li class="dropdown">-->
-            <!--  <a href="#" class="dropdown-toggle navFont" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:#F0C305">Caila Ancheta <span class="caret"></span></a>-->
-            <!--  <ul class="dropdown-menu">-->
-            <!--    <li><a href="/extra">Edit Profile</a></li>-->
-            <!--    <li><a href="/extra">See Photos</a></li>-->
-            <!--    <li><a href="/extra">See Friends</a></li>-->
-            <!--    <li role="separator" class="divider"></li>-->
-            <!--    <li><a href="/extra">Settings</a></li>-->
-            <!--    <li><a href="/extra">Logout</a></li>-->
-            <!--  </ul>-->
-            <!--</li>-->
           </ul>
         </div>{{--/.nav-collapse --}}
       </div>

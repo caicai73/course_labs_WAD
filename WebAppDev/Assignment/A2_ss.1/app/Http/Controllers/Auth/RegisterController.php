@@ -52,7 +52,7 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users',
             'dob' => 'required|date',
             'password' => 'required|string|min:4|confirmed',
-            // 'photos.profile' => 'required|image',
+            'profImg' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
     }
 
@@ -69,6 +69,31 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'dob' => $data['dob'],
             'password' => bcrypt($data['password']),
+            'profImg' => $data['profImg'],
         ]);
+        // return view('auth.register');
+        
+        
     }
+    
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    // public function store(Request $request)
+    // {
+        
+    //     $image_store = request()->file('profImg')->store('images/profile', 'public');
+    //     $user = new User();
+    //     $user->fullname = $request->fullname;
+    //     $user->email = $request->email; 
+    //     $user->dob = $request->dob;
+    //     $user->password = $request->password;
+    //     // $user->profImg = $request->profImg;
+    //     $user->profImg = $image_store;
+    //     $user->save();
+    //     return redirect("/userHome");
+    // }
 }
