@@ -42,7 +42,7 @@
                 <div class="col-md-3" style="padding:10px">
                      <div class="col-md-12 post" style="text-align:center">
                         <img src="images/profile/{{ Auth::user()->profImg }}" style="width:60px; height:60px">
-                        <a><h3>{{ $users->fullname}}</h3></a>
+                        <a><h3>{{--$users->fullname--}}</h3></a>
                         <br/>
                         <a href="#"><button class="btn darkgrey">Add Friend</button></a>
                     </div>
